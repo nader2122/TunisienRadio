@@ -1,0 +1,100 @@
+
+main{
+    width: 360px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    height: 250px;
+    text-align: center;
+}
+header img{
+    height: 170px;
+}
+header h2{
+    margin: 5px 0px;
+    line-height: 22px;
+    font-size: 35px;
+    color: blue;
+    
+    text-shadow: 2px 4px rgb(157, 157, 161);
+    
+
+    }
+header p{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 4px black;
+}
+
+#content{
+    background: linear-gradient(to left, rgb(59, 56, 56),rgba(194, 176, 176, 0.637));
+
+} 
+#buttons{
+    margin-top:30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+#buttons img{
+    margin: 10px 10px;
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    
+    
+}
+
+#voix {
+    text-align: center;
+  
+    margin: 30px 0px;
+    line-height: 30px;
+}
+input[type="range" i] {
+    height: 2px;
+}
+#voix input{
+    width: 100%;
+    color: red;
+}
+#voix h2{
+    color: white;
+}
+
+
+#theme{
+    text-align: center;
+    margin-top: 30px;
+}
+#theme button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:5px;
+}
+#theme h2{
+    color: white;
+}
+
+#color1{
+    background:linear-gradient(to right, black, white);
+}
+#color2{
+    background: linear-gradient(to right, #212047, #30592d);
+}
+#color3{
+    background: linear-gradient(to right, #ff5722, #2a42c8bd);
+}
+
+#color4{
+    background: linear-gradient(to right,#826b5a, #c1d557); 
+}
+#color5{
+    background: linear-gradient(to right,#ffeb3bc2,#ff5722bf);  
+}
